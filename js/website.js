@@ -1,10 +1,13 @@
-angular.module('website', []).
-    config(function($routeProvider) {
+var basic = '<h1>{{title}}</h1><p>{{body}}</p>';
+
+var app = angular.module('website', []);
+
+app.config(function($routeProvider) {
         $routeProvider.
-            when('/about', {templateUrl:'partials/basic-template.html', controller:AboutCtrl}).
-            when('/experiments', {templateUrl:'partials/basic-template.html', controller:ExperimentsCtrl   }).
-            when('/home', {templateUrl:'partials/basic-template.html', controller:HomeCtrl   }).
-            otherwise({redirectTo:'/home'});
+            when('/about', { template: basic, controller: AboutCtrl }).
+            when('/experiments', { template: basic, controller: ExperimentsCtrl }).
+            when('/home', { template: basic, controller: HomeCtrl }).
+            otherwise({ redirectTo: '/home' });
     });
 
 function AboutCtrl($scope) {
