@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html ng-app="website">
+<head>
+    <title>AngularJS Website</title>
+    <meta name="X-UA-Compatible" content="IE=edge,chrome=1">
+    <base href="/test/">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body ng-controller="MainCtrl">
+<!-- top -->
+<header id="header">
+    <h1 id="logo"><a href="./"></a></h1>
+
+    <div id="menu">
+        <a href="./" class="btn">Home</a>
+        <a href="./about" class="btn">About</a>
+        <a href="./experiments" class="btn">Experiments</a>
+        <a href="./unicorn" class="btn">Unicorn</a>
+    </div>
+    <div class="color"></div>
+    <div class="clear"></div>
+</header>
+<!-- //top -->
+<div class="shadow"></div>
+
+<div id="container">
+    <div ng-view></div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+    <script src="js/website.js"></script>
+
+</body>
+</html>
