@@ -43,8 +43,6 @@ angular.module('website', []).
         };
         var setMessage = function(m) {
             message = m;
-
-            console.log('Message Yo!', message);
         };
 
         return {
