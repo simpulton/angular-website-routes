@@ -9,6 +9,7 @@
 
 #header h1#logo {
     float: left;
+    margin: 0;
 }
 
 #header h1#logo a {

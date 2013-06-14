@@ -11,3 +11,12 @@
     nudge there.
   </p>
 </div>
+
+<hr>
+<div>
+    <h2 class="text-error">{{message}}</h2>
+    <form class="form-inline">
+      <input type="text" ng-model="message" placeholder="Message">
+      <button type="submit" class="btn" ng-click="updateMessage(message)">Update Message</button>
+    </form>
+</div>
