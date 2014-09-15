@@ -1,4 +1,4 @@
-angular.module('website', []).
+angular.module('website', ['ngRoute']).
     config(function ($routeProvider) {
         $routeProvider.
             when('/about', {templateUrl: 'partials/about.html', controller: 'AboutCtrl'}).
