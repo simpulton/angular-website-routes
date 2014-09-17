@@ -44,3 +44,10 @@
     top: 68px;
     width: 100%;
 }
+
+.experiment {
+    cursor: pointer;
+    outline: 1px lightgray solid;
+    padding: 5px;
+    margin: 5px;
+}
