@@ -1,0 +1,42 @@
+{
+  "name": "angular-website-routes",
+  "version": "0.0.0",
+  "description": "Building an AngularJS Website Using Routes ======================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simpulton/angular-website-routes.git"
+  },
+  "authors": [
+    "Lukas Rubbleke <simpul@gmail.com>",
+    "Joel Hooks <joelhooks@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simpulton/angular-website-routes/issues"
+  },
+  "homepage": "https://github.com/simpulton/angular-website-routes",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-ng-annotate": "^0.3.2",
+    "body-parser": "^1.4.3",
+    "errorhandler": "^1.1.1",
+    "express": "^4.5.1",
+    "gulp-concat": "^2.3.3",
+    "gulp-flatten": "0.0.2",
+    "gulp-inject": "^0.4.1",
+    "gulp-ng-html2js": "^0.1.7",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-watch": "^0.6.9",
+    "lodash": "^2.4.1",
+    "method-override": "^2.1.0",
+    "run-sequence": "^0.3.6"
+  }
+}
