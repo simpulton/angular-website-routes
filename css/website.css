@@ -58,7 +58,7 @@
 
 /* State Change Animations */
 .main {
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   width: 100%;
 }

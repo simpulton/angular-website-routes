@@ -18,8 +18,8 @@ angular.module('website', ['ui.router', 'ngAnimate'])
     }
   })
   .animation('.main', function (animations) {
-    // return animations.fade;
-    return animations.slide;
+    return animations.fade;
+    // return animations.slide;
   })
   .config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');
