@@ -1,5 +1,5 @@
-Building an AngularJS Website Using Routes
+Building an AngularJS Website using Routes
 ======================
 
-This is a simple AngularJS website using routes and partials. I have also included StateService to show how to preserve state across route changes.
+This is a simple AngularJS Website using Routes and Partials. I have also included StateService to show how to preserve state across route changes.
 
